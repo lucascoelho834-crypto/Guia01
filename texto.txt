@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>pH, Brix e Densidade em Sorvete Artesanal — Cryo Lab</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600;700&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+:root {
+--black:#000000;
+--deep:#05080f;
+--card:#0a0e1a;
+--card2:#0f1520;
+--border:#1a2535;
+--azul:#00c8ff;
+--azul2:#003d52;
+--verde:#00e5a0;
+--verd2:#002d1e;
+--verm:#ff3b3b;
+--verm2:#2d0a0a;
+--ouro:#f5a830;
+--ouro2:#2d1a00;
+--bran:#f0f4ff;
+--dim:#5a6480;
+--dim2:#8a9ab5;
+}
+
+body{
+background:var(--deep);
+color:var(--bran);
+font-family:'DM Sans',sans-serif;
+line-height:1.7;
+margin:0;
+}
+
+.hero{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:60px 20px;
+background:radial-gradient(ellipse 80% 60% at 50% 30%, #071830 0%, transparent 70%);
+}
+
+.hero-eyebrow{
+font-family:'DM Mono',monospace;
+font-size:12px;
+letter-spacing:6px;
+color:var(--azul);
+margin-bottom:25px;
+}
+
+.hero-titulo{
+font-family:'Bebas Neue',sans-serif;
+font-size:60px;
+line-height:0.95;
+margin-bottom:15px;
+}
+
+.hero-titulo .accent{color:var(--azul);}
+.hero-titulo .accent2{color:var(--verde);}
+
+.hero-sub{
+color:var(--dim2);
+max-width:520px;
+margin:0 auto 30px;
+}
+
+.hero-preco{
+font-family:'Bebas Neue';
+font-size:48px;
+color:var(--verde);
+margin:25px 0;
+}
+
+.btn-principal{
+background:var(--azul);
+color:#000;
+padding:16px 32px;
+font-weight:700;
+text-decoration:none;
+border-radius:6px;
+display:inline-block;
+font-size:18px;
+transition:.2s;
+}
+
+.btn-principal:hover{
+background:#33d4ff;
+transform:translateY(-2px);
+box-shadow:0 10px 30px rgba(0,200,255,.3);
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+<div>
+
+<div class="hero-eyebrow">CRYO LAB • GUIA TECNICO</div>
+
+<h1 class="hero-titulo">
+<span class="accent">pH,</span> Brix<br>
+e <span class="accent2">Densidade</span>
+</h1>
+
+<p class="hero-sub">
+Seu sorvete é bom. Mas por que nem sempre sai igual?<br>
+O método que industrias usam para garantir qualidade em toda batelada — agora em um guia de <strong>R$37</strong>.
+</p>
+
+<div class="hero-preco">R$ 37</div>
+
+<a href="https://pay.kiwify.com.br/vxZ18Nb" class="btn-principal">
+QUERO ACESSAR AGORA
+</a>
+
+<p style="color:#8a9ab5;margin-top:15px;font-size:12px;">
+7 dias de garantia • Acesso imediato
+</p>
+
+</div>
+</section>
